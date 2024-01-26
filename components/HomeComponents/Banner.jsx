@@ -15,12 +15,12 @@ const Banner = () => {
                             <div className="">
                                 <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
                                     <span>{"<"}<span className="text-Green sm:text-base xl:text-lg font-bold">div</span>
-                                        {">"} <span className="text-Snow sm:text-xl xl:text-2xl font-bold"> I am a  <span className="inline-block">
+                                        {">"} <span className="text-Snow sm:text-xl xl:text-2xl font-bold"><span className="inline-block">
                                             <Typewriter
                                                 options={{
                                                     strings:
-                                                        ['MERN Stack Developer',
-                                                            'NexJs Developer'],
+                                                        ['I am Full Stack Developer',
+                                                            'who loves to write code'],
                                                     autoStart: true,
                                                     loop: true,
                                                 }}
@@ -41,12 +41,12 @@ const Banner = () => {
                 <div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>10+</span>
+                        <span className='text-base md:text-lg text-Green font-bold'>6+</span>
                         <span className='text-xs text-Snow'>Completed Projects</span>
                     </div>
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>8+</span>
+                        <span className='text-base md:text-lg text-Green font-bold'>3+</span>
                         <span className='text-xs text-Snow'>Freelance Clients</span>
                     </div>
 
@@ -56,7 +56,7 @@ const Banner = () => {
                     </div>
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>10+</span>
+                        <span className='text-base md:text-lg text-Green font-bold'>4+</span>
                         <span className='text-xs text-Snow'>Opensource Projects</span>
                     </div>
 

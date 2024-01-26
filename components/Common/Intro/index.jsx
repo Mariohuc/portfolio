@@ -8,7 +8,7 @@ import Tools from './Tools';
 import Skills from './Skills';
 import Image from 'next/image';
 import { NAME, DESIGNATION, SOCIAL_LINKS } from '../../../constants/constants';
-import Osama from '../../../public/images/osama.jpg';
+import Osama from '../../../public/images/mhuaypuna.jpg';
 
 const Intro = () => {
   return (
@@ -36,9 +36,6 @@ const Intro = () => {
       <div className='footer absolute flex justify-center space-x-6 text-xl items-center bottom-0 z-50 h-10 w-full bg-MidNightBlack text-Snow'>
         <Link href={SOCIAL_LINKS.GITHUB} target='_blank' rel='noreferrer' className=''>
           <FaGithub />
-        </Link>
-        <Link href={SOCIAL_LINKS.TWITTER} target='_blank' rel='noreferrer' className=''>
-          <FaTwitter />
         </Link>
         <Link href={SOCIAL_LINKS.FACEBOOK} target='_blank' rel='noreferrer' className=''>
           <FaFacebook />

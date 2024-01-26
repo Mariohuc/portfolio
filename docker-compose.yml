@@ -1,0 +1,9 @@
+version: '3.8'
+# script sourced by https://dev.to/scaabel/containerizing-a-nextjs-application-for-development-204d
+services:
+  personal-web:
+    build: ./
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app

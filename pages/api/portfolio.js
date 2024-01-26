@@ -1,110 +1,78 @@
 const portfolio = [
     {
         id: 0,
-        projectName: "JMM Technologies",
-        url: "https://jmm.ltd/",
-        image: "projects/jmm.png",
-        projectDetail: "JMM Technologies is a start-up turned technology company with extensive years of experience delivering digital solutions. As a fast-growing tech firm, we help diverse businesses and organizations. Our expertise in innovative, state-of-the-art digital services accelerates business growth and enhances customer impact.",
+        projectName: "EDUGRÁFICAS 3D",
+        url: "https://mariohuc.github.io/edugraficas3d/#/home",
+        image: "projects/edugraficas.png",
+        projectDetail: "This Angular project is intended for students to learn about mathematical 3D surfaces through visualization. Three.js was used to render the displayed 3D graphics and Material for styling the user menus.",
+        repoLink: "https://github.com/Mariohuc/edugraficas3d",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Three.js"
             },
             {
-                tech: ".net"
+                tech: "Angular"
             },
             {
-                tech: "Ant Design"
+                tech: "Math.js"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Angular Material"
             },
         ]
     },
     {
-        id: 0,
-        projectName: "ALSN",
-        url: "https://elmsafeer.co/",
-        image: "projects/alsn.png",
-        projectDetail: "ASLN drives digital transformation with certified document translation services. In an interconnected world where seamless communication is imperative, they are strategically positioned to cater to the needs of businesses, individuals, and organizations.",
+        id: 1,
+        projectName: "CALCAR",
+        url: "",
+        image: "projects/calcar.png",
+        projectDetail: "This project is like the mobile application version of the previous project, since it was developed in Unity 3D and ARCore was used to visualize the 3D objects.",
+        repoLink: "https://github.com/Mariohuc/AppArcoreCalcar",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Unity"
             },
             {
-                tech: ".net"
+                tech: "C#"
             },
             {
-                tech: "Ant Design"
+                tech: "ARCore"
             },
             {
-                tech: "TailwindCSS"
+                tech: "Android"
             },
         ]
     },
     {
-        id: 0,
-        projectName: "FirmSanad",
-        url: "https://firmsanad.invogen.co/",
-        image: "projects/firmsanad.png",
-        projectDetail: "Invest in Saudi Arabia, Streamline Your Business Setup Process in Saudi Arabia with FirmSanad Simplify the process of obtaining licenses and starting a business in Saudi Arabia with our streamlined platform.",
+        id: 2,
+        projectName: "SISIDOX",
+        url: "https://sisidoxpro.web.app/#/",
+        image: "projects/sisidoxpro.png",
+        projectDetail: "This is a web application meant for providing medical teleconsultation service, which sought to contribute to reducing COVID-19 infections within hospitals in Arequipa.",
+        repoLink: "https://github.com/Mariohuc/sisidox-vue-app",
         technologiesUsed: [
             {
-                tech: "ReactJS"
+                tech: "Vue"
             },
             {
-                tech: ".net"
+                tech: "Typescript"
             },
             {
-                tech: "Ant Design"
+                tech: "PWA"
             },
             {
-                tech: "TailwindCSS"
+                tech: "NodeJS"
+            },
+            {
+                tech: "Firebase"
+            },
+            {
+                tech: "Vuetify"
             },
         ]
     },
-    {
-        id: 0,
-        projectName: "Fateh Al Mustaqbil",
-        url: "https://fatehtour.com/",
-        image: "projects/fateh.png",
-        projectDetail: "Fateh Al Mustaqbil is a one-of-a-kind travel agency designed to cater to the interests of travelers across the globe, founded in 2023 in Riyadh, Saudi Arabia. Their expertise lies in crafting exceptional journeys tailored to each client's unique requirements, whether it be ticketing, hotel bookings, or visa assistance.",
-        technologiesUsed: [
-            {
-                tech: "ReactJS"
-            },
-            {
-                tech: ".net"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
-    {
-        id: 0,
-        projectName: "Tojjar",
-        url: "https://tojjar.jmmtest.com/",
-        image: "projects/tojjar.png",
-        projectDetail: "Tojjar is ecommerce website,  where you can open your own store and sell products of different brands!",
-        technologiesUsed: [
-            {
-                tech: "Nextjs with SSR"
-            },
-            {
-                tech: "Laravel"
-            },
-            {
-                tech: "Ant Design"
-            },
-            {
-                tech: "TailwindCSS"
-            },
-        ]
-    },
-    {
+    
+    /* {
         id: 1,
         projectName: "Otawix",
         url: "https://b2c.otawix.com/",
@@ -145,7 +113,7 @@ const portfolio = [
                 tech: "TailwindCSS"
             },
         ]
-    },
+    }, */
     // {
     //     id: 2,
     //     projectName: "Culyte",

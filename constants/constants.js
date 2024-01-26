@@ -1,67 +1,83 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = 'Mario Huaypuna Cjuno';
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = `Full Stack Developer | Node | AWS | English B2`;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: 'Perú',
+  City: 'Arequipa',
+  Age: '29',
 };
 
 export const SKILLS = [
   {
-    title: 'MERN Stack Developer',
+    title: 'Data structures and algorithms',
+    level: '70%',
+  },
+  {
+    title: 'Relational Databases',
+    level: '70%',
+  },
+  {
+    title: 'Non-Relational Databases',
+    level: '35%',
+  },
+  {
+    title: 'Languages (Javascript/Typescript, Java, PHP)',
+    level: '70%',
+  },
+  {
+    title: 'Cloud Computing',
+    level: '40%',
+  },
+  {
+    title: 'Web Development',
+    level: '80%',
+  },
+  {
+    title: 'Containers',
+    level: '60%',
+  },
+  {
+    title: 'Git version control',
     level: '75%',
-  },
-  {
-    title: 'React Developer',
-    level: '91%',
-  },
-  // {
-  //   title: 'Desktop Application Developer',
-  //   level: '75%',
-  // },
-  {
-    title: 'Backend Developer',
-    level: '54%',
-  },
-  {
-    title: 'Technical Blogger',
-    level: '83%',
   },
 ];
 
 export const TECH_STACK = [
-  'ReactJS',
-  'JavaScript',
-  'NextJS',
+  'Angular',
+  'React',
+  'Javascript',
   'TypeScript',
+  'Java',
+  'PHP',
   'NodeJS',
-  'Redux',
-  'Zustand',
-  'CSS',
-  'SCSS',
+  'ExpressJS',
+  'NextJS',
+  'SpringBoot',
+  'Laravel',
+  'HTML/CSS',
+  'Bootstrap',
   'TailwindCSS',
-  'Ant Design',
-  'Material UI',
-  'Next UI',
+  'Angular Material',
   'REST API',
-  'MongoDB',
   'MySQL',
+  'PostgreSQL',
+  'SQL Server',
+  'MongoDB',
+  'DynamoDB',
+  'Docker',
+  'Linux',
+  'AWS',
   'Git',
-  'GitHub',
-  'Jira',
-  'Figma',
-  'Adobe XD',
+  'Jira'
 ];
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
+  EMAIL: 'mhuaypuna@unsa.edu.pe',
+  PHONE: '+51928014504',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
+  GITHUB: 'https://github.com/mariohuc',
+  LINKEDIN: 'https://www.linkedin.com/in/marioahc/',
+  FACEBOOK: 'https://www.facebook.com/profile.php?id=61551835384606',
 };
