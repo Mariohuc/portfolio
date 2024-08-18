@@ -29,6 +29,15 @@ const background = [
     expCards: [
       {
         id: 1,
+        title: "Smart Reasons",
+        role: "Full-stack Developer",
+        url: "https://www.sweatworks.com/",
+        desc: "As part of development and support team implementing solutions for the company's proprietary ERP",
+        year: "03/2024 - present",
+        location: "Perú, Arequipa",
+      },
+      {
+        id: 2,
         title: "Sweatworks",
         role: "Full-stack Developer",
         url: "https://www.sweatworks.com/",
@@ -37,7 +46,7 @@ const background = [
         location: "Arlington, United States",
       },
       {
-        id: 2,
+        id: 3,
         title: "MDP Consulting S.A.C",
         role: "Full-stack Developer",
         url: "no website",
@@ -46,7 +55,7 @@ const background = [
         location: "Lima, Perú",
       },
       {
-        id: 3,
+        id: 4,
         title: "Self-employed",
         role: "Freelance",
         url: "no website",
@@ -55,7 +64,7 @@ const background = [
         location: "Arequipa, Perú",
       },
       {
-        id: 4,
+        id: 5,
         title: "CITECCAL Arequipa",
         role: "Internee",
         url: "no website",
@@ -64,7 +73,7 @@ const background = [
         location: "Arequipa, Perú",
       },
       {
-        id: 5,
+        id: 6,
         title: "ZOODEX Research Center",
         role: "Research Assistant",
         url: "http://citesoft.unsa.edu.pe:8003/zoodex.html",
@@ -73,7 +82,7 @@ const background = [
         location: "Arequipa, Perú",
       },
       {
-        id: 6,
+        id: 7,
         title: "Alimentos Procesados S.A",
         role: "Technical Assistant",
         url: "no website",
